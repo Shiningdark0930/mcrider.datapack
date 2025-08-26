@@ -1,0 +1,10 @@
+execute if score @s kartboostgauge matches ..1144 run return run data modify storage kartactbar message append value [{"text":"","color":"blue","bold":true},{"text":"■■■■■■■","color":"#959595","bold":true}]
+execute if score @s kartboostgauge matches 1145..1287 run return run data modify storage kartactbar message append value [{"text":"■","color":"blue","bold":true},{"text":"■■■■■■","color":"#959595","bold":true}]
+execute if score @s kartboostgauge matches 1288..1329 run return run data modify storage kartactbar message append value [{"text":"■■","color":"blue","bold":true},{"text":"■■■■■","color":"#959595","bold":true}]
+
+execute if score @s kartboostgauge matches 1330..1430 run return run data modify storage kartactbar message append value [{"text":"■■","color":"gold","bold":true},{"text":"■■■■■","color":"#959595","bold":true}]
+execute if score @s kartboostgauge matches 1431..1573 run return run data modify storage kartactbar message append value [{"text":"■■■","color":"gold","bold":true},{"text":"■■■■","color":"#959595","bold":true}]
+execute if score @s kartboostgauge matches 1574..1716 run return run data modify storage kartactbar message append value [{"text":"■■■■","color":"gold","bold":true},{"text":"■■■","color":"#959595","bold":true}]
+execute if score @s kartboostgauge matches 1717..1859 run return run data modify storage kartactbar message append value [{"text":"■■■■■","color":"gold","bold":true},{"text":"■■","color":"#959595","bold":true}]
+execute if score @s kartboostgauge matches 1860..1999 run return run data modify storage kartactbar message append value [{"text":"■■■■■■","color":"gold","bold":true},{"text":"■","color":"#959595","bold":true}]
+execute if score @s kartboostgauge matches 2000.. run data modify storage kartactbar message append value [{"text":"■■■■■■■","color":"light_purple","bold":true},{"text":"","color":"#959595","bold":true}]

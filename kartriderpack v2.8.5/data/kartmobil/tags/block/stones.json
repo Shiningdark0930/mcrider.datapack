@@ -1,0 +1,31 @@
+{
+    "replace": true,
+    "values": [
+        "#minecraft:walls",
+        "#minecraft:fences",
+        "#minecraft:fence_gates",
+
+        "minecraft:stone",
+        "minecraft:stone_slab",
+        "minecraft:stone_bricks",
+        "minecraft:stone_brick_slab",        
+        "minecraft:smooth_stone",
+        "minecraft:smooth_stone_slab",
+
+        "minecraft:cobblestone",
+        "minecraft:cobblestone_slab",
+        "minecraft:mossy_cobblestone",
+        "minecraft:mossy_cobblestone_slab",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:mossy_stone_brick_slab",      
+        
+        "minecraft:barrier",
+
+        "minecraft:andesite",
+        "minecraft:andesite_slab",
+        "minecraft:polished_andesite",
+        "minecraft:polished_andesite_slab",  
+        "minecraft:diorite",
+        "minecraft:diorite_slab"
+    ]
+}

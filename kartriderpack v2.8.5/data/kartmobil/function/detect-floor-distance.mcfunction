@@ -1,0 +1,2 @@
+execute if block ~ ~-1 ~ #kartmobil:ignoreblock run scoreboard players add floor-distance kartmain 1
+execute if block ~ ~-1 ~ #kartmobil:ignoreblock if score floor-distance kartmain matches ..5 positioned ~ ~-1 ~ run function kartmobil:detect-floor-distance

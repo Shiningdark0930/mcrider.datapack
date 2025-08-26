@@ -1,0 +1,2 @@
+execute on passengers as @s[tag=kartmodelsaddle,type=item_display] on passengers if entity @s[tag=kartmodel] run data modify entity @s view_range set value 0f
+effect give @p[tag=kartpassenger] minecraft:invisibility 1 1 true

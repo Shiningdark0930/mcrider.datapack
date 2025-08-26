@@ -1,0 +1,2 @@
+execute if score @s multi-lap > @p[tag=check-multi-temp] multi-lap run tag @p[tag=check-multi-temp] remove check-1st-lap-player
+execute if score @s multi-lap = @p[tag=check-multi-temp] multi-lap run tag @s add check-same-lap-player

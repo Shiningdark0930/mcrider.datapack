@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:slime_block",
+        "minecraft:magenta_glazed_terracotta",
+        "minecraft:command_block"
+    ]
+}

@@ -1,0 +1,29 @@
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"슈퍼 연카"},speed:423, accel:585, boost:199, corner:212, drift:470, gauge:19, boosttime:58, hideplayer:0, maxboostcount:2, defense:38, size:1, model:"kite-practice-super"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"연습카트 드리프트"},speed:423, accel:585, boost:200, corner:216, drift:452, gauge:20, boosttime:59, hideplayer:0, maxboostcount:2, defense:38, size:1, model:"tco-practice-drift"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"연습카트 러쉬플러스"},speed:423, accel:585, boost:200, corner:215, drift:475, gauge:17, boosttime:57, hideplayer:0, maxboostcount:2, defense:35, size:1, model:"kite-practice-rush"}
+
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"코튼"},speed:428, accel:584, boost:193, corner:222, drift:448, gauge:17, boosttime:59, hideplayer:0, maxboostcount:2, defense:42, size:2, model:"kite-cottonsr"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"코튼 드리프트"},speed:427, accel:578, boost:189, corner:214, drift:450, gauge:18, boosttime:59, hideplayer:0, maxboostcount:2, defense:40, size:2, model:"loggamja-cottonn1"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"버스트"},speed:400, accel:660, boost:229, corner:198, drift:454, gauge:17, boosttime:58, hideplayer:0, maxboostcount:2, defense:43, size:1, model:"kite-burst"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"솔리드"},speed:439, accel:538, boost:195, corner:213, drift:465, gauge:19, boosttime:59, hideplayer:0, maxboostcount:2, defense:55, size:2, model:"kite-solidpro"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"라임 솔리드"},speed:436, accel:548, boost:195, corner:213, drift:465, gauge:19, boosttime:59, hideplayer:0, maxboostcount:2, defense:51, size:2, model:"nekter-limesolid"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"마라톤"},speed:423, accel:588, boost:189, corner:202, drift:470, gauge:14, boosttime:65, hideplayer:0, maxboostcount:2, defense:42, size:2, model:"kite-marathon"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"섀도우 마라톤"},speed:437, accel:540, boost:193, corner:210, drift:470, gauge:15, boosttime:64, hideplayer:0, maxboostcount:2, defense:40, size:2, model:"lpeng-maraton-night"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"세이버"},speed:423, accel:582, boost:195, corner:230, drift:485, gauge:15, boosttime:58, hideplayer:0, maxboostcount:2, defense:41, size:1, model:"lpeng-saber"}
+
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"황금 마차"},speed:423, accel:586, boost:196, corner:215, drift:495, gauge:16, boosttime:58, hideplayer:0, maxboostcount:2, defense:41, size:1, model:"loggamja-invkart"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"이온"},speed:428, accel:598, boost:180, corner:230, drift:446, gauge:15, boosttime:58, hideplayer:0, maxboostcount:2, defense:41, size:2, model:"lpeng-eon"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"폭스"},speed:427, accel:600, boost:178, corner:218, drift:460, gauge:25, boosttime:59, hideplayer:0, maxboostcount:2, defense:43, size:2, model:"loggamja-fox"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"비트"},speed:427, accel:606, boost:170, corner:215, drift:470, gauge:21, boosttime:59, hideplayer:0, maxboostcount:2, defense:33, size:2, model:"ecyceeeee-beat"}
+
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"라이트 파라곤"},speed:428, accel:590, boost:190, corner:200, drift:480, gauge:13, boosttime:59, hideplayer:0, maxboostcount:2, defense:38, size:2, model:"loggamja-paragon"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"아이스 플라즈마"},speed:423, accel:594, boost:189, corner:203, drift:455, gauge:2, boosttime:80, hideplayer:0, maxboostcount:2, defense:39, size:1, model:"nekter-iceplazma"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"리벤저"},speed:423, accel:589, boost:195, corner:212, drift:460, gauge:15, boosttime:60, hideplayer:0, maxboostcount:2, defense:40, size:2, model:"nekter-revenger"}
+
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"박스터"},speed:432, accel:538, boost:226, corner:192, drift:459, gauge:18, boosttime:65, hideplayer:0, maxboostcount:2, defense:52, size:2, model:"lpeng-boxter"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"코리아"},speed:428, accel:580, boost:198, corner:212, drift:465, gauge:14, boosttime:59, hideplayer:0, maxboostcount:2, defense:40, size:2, model:"lpeng-korea"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"올림포스"},speed:419, accel:608, boost:193, corner:200, drift:435, gauge:22, boosttime:60, hideplayer:0, maxboostcount:2, defense:40, size:2, model:"lpeng-olympos"}
+
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"포니"},speed:423, accel:588, boost:189, corner:200, drift:470, gauge:14, boosttime:63, hideplayer:0, maxboostcount:2, defense:41, size:2, model:"kite-pony"}
+function kartmobil:makebike {name:{"color":"light_purple","italic":false,"text":"롤러 붓"},speed:428, accel:580, boost:205, corner:208, drift:468, gauge:15, boosttime:57, hideplayer:0, maxboostcount:2, defense:35, size:0, model:"lpeng-roller"}
+function kartmobil:makekart {name:{"color":"light_purple","italic":false,"text":"문블레이드"},speed:420, accel:588, boost:200, corner:193, drift:435, gauge:21, boosttime:60, hideplayer:0, maxboostcount:2, defense:45, size:2, model:"lpeng-moonblade"}

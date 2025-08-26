@@ -1,0 +1,38 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:air",
+        "minecraft:snow",
+        "minecraft:water",
+        "minecraft:torch",
+        "minecraft:lever",
+        "minecraft:wall_torch",
+        "minecraft:light",        
+        "minecraft:short_grass",
+        "minecraft:tall_grass",
+        "minecraft:fern",
+        "minecraft:cave_air",
+        "minecraft:void_air",
+        "minecraft:repeater", 
+        "minecraft:tripwire",
+        "minecraft:comparator",
+        "minecraft:sugar_cane",
+        "minecraft:redstone_wire",
+
+        "minecraft:warped_fungus",
+        "minecraft:crimson_fungus",
+
+        "minecraft:moss_carpet",
+        
+        "#minecraft:fire", 
+        "#minecraft:signs", 
+        "#minecraft:rails",
+        "#minecraft:buttons",
+        "#minecraft:flowers",
+        "#minecraft:wool_carpets",
+        "#minecraft:saplings",
+        "#minecraft:flower_pots",
+        "#minecraft:pressure_plates",
+        "#minecraft:banners"
+    ]
+}

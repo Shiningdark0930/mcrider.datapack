@@ -1,0 +1,3 @@
+execute positioned as @s unless block ^ ^ ^0.65 #kartmobil:stones unless block ^ ^ ^0.65 #kartmobil:ignoreblock if block ^ ^1 ^0.65 #kartmobil:ignoreblock run tp @s ^ ^1.01 ^0.3
+execute positioned as @s rotated ~45 ~ unless block ^ ^ ^0.65 #kartmobil:stones unless block ^ ^ ^0.65 #kartmobil:ignoreblock if block ^ ^1 ^0.65 #kartmobil:ignoreblock run tp @s ^ ^1.01 ^0.3
+execute positioned as @s rotated ~-45 ~ unless block ^ ^ ^0.65 #kartmobil:stones unless block ^ ^ ^0.65 #kartmobil:ignoreblock if block ^ ^1 ^0.65 #kartmobil:ignoreblock run tp @s ^ ^1.01 ^0.3

@@ -1,0 +1,1 @@
+scoreboard players set #rota NemoSteelRockFurnace_TerrainRotationTiming 1

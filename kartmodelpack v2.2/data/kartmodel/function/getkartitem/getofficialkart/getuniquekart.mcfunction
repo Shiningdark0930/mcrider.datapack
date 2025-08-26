@@ -1,0 +1,12 @@
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"블랙 비틀"},speed:431, accel:580, boost:202, corner:227, drift:480, gauge:10, boosttime:61, hideplayer:0, maxboostcount:2, defense:33, size:2, model:"nekter-blackbeetle"}
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"아르테미스"},speed:428, accel:600, boost:193, corner:238, drift:445, gauge:11, boosttime:61, hideplayer:0, maxboostcount:2, defense:34, size:1, model:"siaskr-artemis"}
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"히페리온"},speed:431, accel:595, boost:185, corner:218, drift:473, gauge:10, boosttime:61, hideplayer:0, maxboostcount:2, defense:30, size:1, model:"nekter-hiperion"}
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"크로노스"},speed:431, accel:573, boost:205, corner:228, drift:470, gauge:12, boosttime:61, hideplayer:0, maxboostcount:2, defense:33, size:1, model:"ecyceeeee-chronos"}
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"골든 파라곤"},speed:427, accel:590, boost:210, corner:210, drift:478, gauge:10, boosttime:61, hideplayer:0, maxboostcount:2, defense:32, size:2, model:"lpeng-golden-paragon"}
+   
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"얼티밋 코튼"},speed:427, accel:590, boost:210, corner:222, drift:460, gauge:11, boosttime:61, hideplayer:0, maxboostcount:2, defense:30, size:2, model:"kite-cotton-srx9"}
+function kartmobil:makebike {name:{"color":"dark_red","bold":true,"italic":false,"text":"프로토 바이크"},speed:420, accel:610, boost:224, corner:201, drift:476, gauge:26, boosttime:52, hideplayer:0, maxboostcount:3, defense:26, size:1, model:"lpeng-practice-bike"}
+
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"데드락 연카"},speed:426, accel:601, boost:200, corner:210, drift:470, gauge:13, boosttime:60, hideplayer:0, maxboostcount:2, defense:30, size:1, model:"lpeng-practice-deadlock"}
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"백기사 임페리움"},speed:428, accel:590, boost:200, corner:214, drift:460, gauge:10, boosttime:65, hideplayer:0, maxboostcount:2, defense:32, size:1, model:"nekter-imperium"}
+function kartmobil:makekart {name:{"color":"dark_red","bold":true,"italic":false,"text":"세르케트 스토커"},speed:428, accel:538, boost:265, corner:220, drift:450, gauge:10, boosttime:61, hideplayer:0, maxboostcount:2, defense:35, size:2, model:"nekter-serket"}

@@ -1,0 +1,1 @@
+$data modify storage timermain time set value {"text":"$(min):$(sec).$(milisec)","color":"aqua"}

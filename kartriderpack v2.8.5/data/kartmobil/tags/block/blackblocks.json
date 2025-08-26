@@ -1,0 +1,24 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:black_wool",
+        "minecraft:black_concrete",
+        "minecraft:black_concrete_powder",
+        "minecraft:black_terracotta",
+
+        "minecraft:blackstone",
+        "minecraft:blackstone_slab",
+        "minecraft:polished_blackstone",
+        "minecraft:polished_blackstone_slab",
+        "minecraft:polished_blackstone_bricks",
+        "minecraft:polished_blackstone_brick_slab",
+        "minecraft:chiseled_polished_blackstone",
+        "minecraft:cracked_polished_blackstone_bricks",
+
+        "minecraft:deepslate_tiles",
+        "minecraft:cobbled_deepslate",
+
+        "minecraft:obsidian",
+        "minecraft:crying_obsidian"
+    ]
+}

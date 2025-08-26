@@ -1,0 +1,1 @@
+execute store result score #sidite-cursed-mod kartmain run is_mod_install

@@ -1,0 +1,9 @@
+execute if score #dev dev-count matches 1 run function devbattle:system/shadow/model/logmodel
+execute if score #dev dev-count matches 2 run function devbattle:system/shadow/model/kitemodel
+execute if score #dev dev-count matches 3 run function devbattle:system/shadow/model/anothermodel
+execute if score #dev dev-count matches 4 run function devbattle:system/shadow/model/pangchmodel
+execute if score #dev dev-count matches 5 run function devbattle:system/shadow/model/nektermodel
+execute if score #dev dev-count matches 6 run function devbattle:system/shadow/model/pengmodel
+execute if score #dev dev-count matches 7 run function devbattle:system/shadow/model/gdmodel
+execute if score #dev dev-count matches 8 run function devbattle:system/shadow/model/towermodel
+execute if score #dev dev-count matches 9 run function devbattle:system/shadow/model/siditemodel

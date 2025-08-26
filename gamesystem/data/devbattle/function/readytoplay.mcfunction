@@ -1,0 +1,26 @@
+#만약 멀티 플레이, 제작자 대결, 타임어택, 라이센스 중 하나라도 플레이중이라면 return
+execute if function gamemain:cannot-start-condition run return 1
+
+execute unless items entity @p weapon *[minecraft:custom_data~{kartmobil:1}] run tellraw @a[distance=..50] [{"text":"손에 ","color":"red"},{"text":"탑승할 카트","color":"aqua"},{"text":"를 들어주세요.","color":"red"}]
+execute if score @n[tag=trackselect-devbattle-record] timermain matches 2147483647 unless score #dev-record-mode dev-count matches 1 run tellraw @a[distance=..50] [{"text":"제작자가 ","color":"red"},{"text":"주행 데이터","color":"aqua"},{"text":"를 기록하지 않은 트랙입니다.","color":"red"}]
+
+execute unless items entity @p weapon *[minecraft:custom_data~{kartmobil:1}] run return 1
+execute if score @n[tag=trackselect-devbattle-record] timermain matches 2147483647 unless score #dev-record-mode dev-count matches 1 run return 1
+
+
+
+data modify entity @e[tag=dev-state-text,limit=1] text set value [{"text":"대결 진행 중\n","color":"green"},{"text":"관전하기","color":"aqua"}]
+
+effect give @p minecraft:unluck 1 1 true
+
+
+#게임 아이디 변경
+scoreboard players add #max-id game-id 1
+scoreboard players operation @p game-id = #max-id game-id
+
+#게임 시작
+execute store result score @p dev-map run data get entity @n[tag=trackselect-devbattle-marker] data.track.number
+scoreboard players set @p dev-count 1
+
+#안전빵으로 초기화 한번
+function checkpoint:system/init

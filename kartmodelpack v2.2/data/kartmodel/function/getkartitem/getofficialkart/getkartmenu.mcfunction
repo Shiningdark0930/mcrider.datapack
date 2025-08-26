@@ -1,0 +1,20 @@
+tellraw @s [{"text":"공식 카트 메뉴\n","color":"aqua","bold":true}]
+
+#tellraw @s [{"text":"[일반-1]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger getkart set 11"}},{"text":"등급 카트 획득","color":"green","clickEvent":{"action":"run_command","value":"/trigger getkart set 11"}}]
+#tellraw @s [{"text":"[일반-2]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger getkart set 17"}},{"text":"등급 카트 획득","color":"green","clickEvent":{"action":"run_command","value":"/trigger getkart set 17"}}]
+#tellraw @s [{"text":"[레어-1]","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger getkart set 12"}},{"text":"등급 카트 획득","color":"green","clickEvent":{"action":"run_command","value":"/trigger getkart set 12"}}]
+#tellraw @s [{"text":"[레어-2]","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger getkart set 13"}},{"text":"등급 카트 획득","color":"green","clickEvent":{"action":"run_command","value":"/trigger getkart set 13"}}]
+#tellraw @s [{"text":"[레전드]","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger getkart set 14"}},{"text":"등급 카트 획득","color":"green","clickEvent":{"action":"run_command","value":"/trigger getkart set 14"}}]
+#tellraw @s [{"text":"[유니크]","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger getkart set 15"}},{"text":"등급 카트 획득","color":"green","clickEvent":{"action":"run_command","value":"/trigger getkart set 15"}}]
+#tellraw @s [{"text":"[스페셜]","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger getkart set 16"}},{"text":"등급 카트 획득","color":"green","clickEvent":{"action":"run_command","value":"/trigger getkart set 16"}}]
+
+
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 11"},"color":"gray","text":"[일반-1]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 11"},"color":"green","text":"등급 카트 획득"}]
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 17"},"color":"gray","text":"[일반-2]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 17"},"color":"green","text":"등급 카트 획득"}]
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 12"},"color":"light_purple","text":"[레어-1]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 12"},"color":"green","text":"등급 카트 획득"}]
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 13"},"color":"light_purple","text":"[레어-2]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 13"},"color":"green","text":"등급 카트 획득"}]
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 14"},"color":"yellow","text":"[레전드-1]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 14"},"color":"green","text":"등급 카트 획득"}]
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 19"},"color":"yellow","text":"[레전드-2]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 19"},"color":"green","text":"등급 카트 획득"}]
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 15"},"color":"dark_red","text":"[유니크]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 15"},"color":"green","text":"등급 카트 획득"}]
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 16"},"color":"aqua","text":"[스페셜-1]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 16"},"color":"green","text":"등급 카트 획득"}]
+tellraw @s [{"click_event":{"action":"run_command","command":"/trigger getkart set 18"},"color":"aqua","text":"[스페셜-2]"},{"click_event":{"action":"run_command","command":"/trigger getkart set 18"},"color":"green","text":"등급 카트 획득"}]
