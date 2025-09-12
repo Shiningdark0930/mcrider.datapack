@@ -5,11 +5,11 @@ scoreboard players operation #kartairresistconst kartmove = @s kartspeed
 
 
 #기어별 가속력 멀티플라이어
-execute if score @s kartboostcount matches 1 store result storage minecraft:kartmain gear-airresist int 0.525 run scoreboard players get #kartairresistconst kartmove
-execute if score @s kartboostcount matches 2 store result storage minecraft:kartmain gear-airresist int 0.725 run scoreboard players get #kartairresistconst kartmove
-execute if score @s kartboostcount matches 3 store result storage minecraft:kartmain gear-airresist int 0.9125 run scoreboard players get #kartairresistconst kartmove
-execute if score @s kartboostcount matches 4 store result storage minecraft:kartmain gear-airresist int 1.1 run scoreboard players get #kartairresistconst kartmove
-execute if score @s kartboostcount matches 5 store result storage minecraft:kartmain gear-airresist int 1.441 run scoreboard players get #kartairresistconst kartmove
+execute if score @s kartboostcount matches 1 store result storage minecraft:kartmain gear-airresist int 0.62 run scoreboard players get #kartairresistconst kartmove
+execute if score @s kartboostcount matches 2 store result storage minecraft:kartmain gear-airresist int 0.862 run scoreboard players get #kartairresistconst kartmove
+execute if score @s kartboostcount matches 3 store result storage minecraft:kartmain gear-airresist int 1.063 run scoreboard players get #kartairresistconst kartmove
+execute if score @s kartboostcount matches 4 store result storage minecraft:kartmain gear-airresist int 1.25 run scoreboard players get #kartairresistconst kartmove
+execute if score @s kartboostcount matches 5 store result storage minecraft:kartmain gear-airresist int 1.438 run scoreboard players get #kartairresistconst kartmove
 # execute if score @s kartboostcount matches 6 store result storage minecraft:kartmain gear-airresist int 1.6025 run scoreboard players get #kartairresistconst kartmove
 
 execute store result score #kartairresistconst kartmove run data get storage minecraft:kartmain gear-airresist

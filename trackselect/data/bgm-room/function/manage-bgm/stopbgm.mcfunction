@@ -92,6 +92,8 @@ function mkdswaluigi:stop
 function mkdsdelfino:stop
 function mk8rainbow64:stop
 function mkscsnowland:stop
+function mkdsyoshifalls:stop
+function mkdsairshipfortress:stop
 
 #엔딩 오프닝
 function introbgm:stop

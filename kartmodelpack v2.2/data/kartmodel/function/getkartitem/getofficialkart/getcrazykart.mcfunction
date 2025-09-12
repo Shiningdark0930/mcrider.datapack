@@ -1,13 +1,13 @@
 
 function kartmobil:makekart {name:{"color":"green","italic":false,"text":"퍼시벌 코튼"},speed:452, accel:640, boost:205, corner:230, drift:470, gauge:20, boosttime:66, hideplayer:0, maxboostcount:2, defense:18, size:2, model:"kite-cottonsr"}
 
-function kartmobil:makekart {name:{"color":"green","italic":false,"text":"가라하드 버스터"},speed:445, accel:700, boost:240, corner:210, drift:470, gauge:20, boosttime:64, hideplayer:0, maxboostcount:2, defense:15, size:1, model:"kite-burst"}
+function kartmobil:makekart {name:{"color":"green","italic":false,"text":"가라하드 버스트"},speed:445, accel:700, boost:240, corner:210, drift:470, gauge:20, boosttime:64, hideplayer:0, maxboostcount:2, defense:15, size:1, model:"kite-burst"}
 
 function kartmobil:makekart {name:{"color":"green","italic":false,"text":"가웨인 마라톤"},speed:450, accel:640, boost:198, corner:215, drift:490, gauge:18, boosttime:72, hideplayer:0, maxboostcount:2, defense:20, size:2, model:"kite-marathon"}
 
 function kartmobil:makekart {name:{"color":"green","italic":false,"text":"랜슬롯 솔리드"},speed:458, accel:600, boost:205, corner:225, drift:485, gauge:22, boosttime:66, hideplayer:0, maxboostcount:2, defense:25, size:2, model:"kite-solidpro"}
 
-function kartmobil:makekart {name:{"color":"green","italic":false,"text":"아서 세이버"},speed:453, accel:640, boost:198, corner:250, drift:485, gauge:15, boosttime:66, hideplayer:0, maxboostcount:2, defense:21, size:1, model:"lpeng-saber"}
+function kartmobil:makekart {name:{"color":"green","italic":false,"text":"아서 세이버"},speed:453, accel:640, boost:198, corner:250, drift:505, gauge:15, boosttime:66, hideplayer:0, maxboostcount:2, defense:21, size:1, model:"lpeng-saber"}
 
 function kartmobil:makekart {name:{"color":"green","italic":false,"text":"원작 파라곤"},speed:457, accel:645, boost:210, corner:235, drift:495, gauge:18, boosttime:68, hideplayer:0, maxboostcount:2, defense:18, size:2, model:"siaskr-paragon"}
 

@@ -29,9 +29,9 @@ execute if score @s garage-time matches 15 positioned ~ ~-0.5 ~ run particle min
 
 execute if score @s garage-time matches 15 run scoreboard players set @s kartboosttime 37
 ##sidite 분기
-execute if score #sidite-cursed-mod kartmain matches 0 if score @s garage-time matches 15 positioned ~ ~-0.5 ~ run function kartmobil:move/boost-effect/show-boost-model/show-block-vanilla
+execute if score #sidite-cursed-mod kartmain matches 0 if score @s garage-time matches 15 positioned ~ ~-0.5 ~ run function kartmobil:move/boost-effect/show-boost-model/show-block
 execute if score #sidite-cursed-mod kartmain matches 1 if score @s garage-time matches 15 positioned ~ ~-0.5 ~ run function kartmobil:move/boost-effect/show-boost-model/show-block-sidite
-execute if score #sidite-cursed-mod kartmain matches 0 if score @s garage-time matches 30 positioned ~ ~-0.5 ~ run function kartmobil:move/boost-effect/show-boost-model/show-flame-vanilla
+execute if score #sidite-cursed-mod kartmain matches 0 if score @s garage-time matches 30 positioned ~ ~-0.5 ~ run function kartmobil:move/boost-effect/show-boost-model/show-flame
 execute if score #sidite-cursed-mod kartmain matches 1 if score @s garage-time matches 30 positioned ~ ~-0.5 ~ run function kartmobil:move/boost-effect/show-boost-model/show-flame-sidite
 
 execute if score @s garage-time matches 30.. if entity @s[tag=kart-use-run-anime] run function garage:system/show-run-anime

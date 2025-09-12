@@ -3,6 +3,7 @@ scoreboard objectives add multi-lap dummy
 scoreboard objectives add multi-rank dummy
 scoreboard objectives add multi-returntohub trigger
 scoreboard objectives add multi-record-mod dummy {text:"기록 모드",bold:true,color:green}
+scoreboard objectives add temp dummy
 
 scoreboard objectives add multi-instant-rank dummy
 scoreboard objectives modify multi-instant-rank displayname "등"

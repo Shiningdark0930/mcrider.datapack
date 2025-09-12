@@ -1,7 +1,7 @@
 scoreboard players remove @s kartcorner 100
 
-scoreboard players remove @s kartspeed 33
-scoreboard players remove @s kartaccel 85
+scoreboard players remove @s kartspeed 19
+scoreboard players remove @s kartaccel 50
 #scoreboard players remove @s kartboost 100
 
 #scoreboard players remove @s kartboostgaugecharge 2

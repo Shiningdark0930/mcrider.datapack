@@ -25,6 +25,8 @@ scoreboard players set @n[tag=mykart,type=item_display] kartcollisiontime 50
 scoreboard players set @n[tag=mykart,type=item_display] kartmove 0
 scoreboard players add @n[tag=mykart,type=item_display] kartboostgauge 1500
 
+execute if score @n[tag=mykart,type=item_display] kart-engine matches 9 run scoreboard players set @n[tag=mykart,type=item_display] kartboostcount 1
+execute if score @n[tag=mykart,type=item_display] kart-engine matches 1005 run scoreboard players set @n[tag=mykart,type=item_display] kartboostcount 1
 function rkey:play
 
 #/summon minecraft:marker ~ ~ ~ {Tags:["kartreturnpoint"]}

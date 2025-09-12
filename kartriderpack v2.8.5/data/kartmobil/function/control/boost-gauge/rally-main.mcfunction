@@ -11,12 +11,11 @@ data modify storage kartactbar message append value [{"text":"   ","color":"yell
 # execute if score @s kartboostcount matches 5 store result storage minecraft:kartmain gear-rpm int 0.0461 run scoreboard players get @s kartmove
 # execute if score @s kartboostcount matches 6 store result storage minecraft:kartmain gear-rpm int 0.0427 run scoreboard players get @s kartmove
 
-execute if score @s kartboostcount matches 1 store result storage minecraft:kartmain gear-rpm int 0.125 run scoreboard players get @s kartmove
-execute if score @s kartboostcount matches 2 store result storage minecraft:kartmain gear-rpm int 0.080 run scoreboard players get @s kartmove
-execute if score @s kartboostcount matches 3 store result storage minecraft:kartmain gear-rpm int 0.062 run scoreboard players get @s kartmove
-execute if score @s kartboostcount matches 4 store result storage minecraft:kartmain gear-rpm int 0.054 run scoreboard players get @s kartmove
-execute if score @s kartboostcount matches 5 store result storage minecraft:kartmain gear-rpm int 0.0485 run scoreboard players get @s kartmove
-execute if score @s kartboostcount matches 6 store result storage minecraft:kartmain gear-rpm int 0.0455 run scoreboard players get @s kartmove
+execute if score @s kartboostcount matches 1 store result storage minecraft:kartmain gear-rpm int 0.095 run scoreboard players get @s kartmove
+execute if score @s kartboostcount matches 2 store result storage minecraft:kartmain gear-rpm int 0.065 run scoreboard players get @s kartmove
+execute if score @s kartboostcount matches 3 store result storage minecraft:kartmain gear-rpm int 0.05 run scoreboard players get @s kartmove
+execute if score @s kartboostcount matches 4 store result storage minecraft:kartmain gear-rpm int 0.047 run scoreboard players get @s kartmove
+execute if score @s kartboostcount matches 5 store result storage minecraft:kartmain gear-rpm int 0.043 run scoreboard players get @s kartmove
 
 execute store result score @s kartboostgauge run data get storage minecraft:kartmain gear-rpm
 

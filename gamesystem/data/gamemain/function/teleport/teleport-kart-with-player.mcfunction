@@ -10,9 +10,11 @@ $execute at @s rotated $(xrot) $(yrot) on passengers run rotate @s[tag=kartdirec
 
 $tp @s $(x) $(y) $(z)
 
+function gamemain:teleport/sync
+
 execute at @s run playsound minecraft:entity.enderman.teleport weather @a[tag=kartplayertemp] ~ ~ ~ 1 1 1
 
-tag @a[tag=kartplayertemp] add needsync
+# tag @a[tag=kartplayertemp] add needsync
 tag @a[tag=kartplayertemp] remove kartplayertemp
 
 
