@@ -12,8 +12,8 @@ execute as @e[tag=check-point,type=marker] if score @s check-num = @p[tag=kart-r
 execute as @e[tag=check-point,type=marker] if score @s check-num = @p[tag=kart-return-temp] check-next run tag @s add kart-return-check-next
 
 execute positioned as @n[tag=kart-return-check] run tp @n[tag=mykart,type=item_display] ~ ~ ~
-execute positioned as @n[tag=mykart,type=item_display] run rotate @n[tag=kartdirection,type=marker] facing entity @n[tag=kart-return-check-next]
-execute rotated as @n[tag=kartdirection,type=marker] run rotate @p[tag=kart-return-temp] ~ 20
+execute positioned as @n[tag=mykart,type=item_display] run rotate @n[tag=kartdirection,type=item_display] facing entity @n[tag=kart-return-check-next]
+execute rotated as @n[tag=kartdirection,type=item_display] run rotate @p[tag=kart-return-temp] ~ 20
 
 tag @s remove kart-return-temp
 tag @e[tag=kart-return-check] remove kart-return-check

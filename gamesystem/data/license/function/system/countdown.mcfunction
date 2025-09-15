@@ -29,6 +29,6 @@ execute if score @s licensecount matches 100 as @a at @s run playsound minecraft
 
 execute if score @s licensecount matches 100 run function timerpack:start
 execute if score @s licensecount matches 100 run tag @n[tag=kartmobil,tag=kart-stop,type=item_display] remove kart-stop
-execute if score @s licensecount matches 100 run scoreboard players set @n[tag=kartdirection,type=minecraft:marker] startboosttime 25
+execute if score @s licensecount matches 100 run scoreboard players set @n[tag=kartdirection,type=item_display] startboosttime 25
 
 #@e[tag=kartmobil,type=item_display]

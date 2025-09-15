@@ -31,4 +31,4 @@ execute if score @s dev-count matches 100 as @a at @s run playsound minecraft:bl
 
 execute if score @s dev-count matches 100 run function timerpack:start
 execute if score @s dev-count matches 100 run tag @n[tag=kartmobil,tag=kart-stop,distance=..10,type=item_display] remove kart-stop
-execute if score @s dev-count matches 100 run scoreboard players set @n[tag=kartdirection,type=minecraft:marker] startboosttime 25
+execute if score @s dev-count matches 100 run scoreboard players set @n[tag=kartdirection,type=item_display] startboosttime 25

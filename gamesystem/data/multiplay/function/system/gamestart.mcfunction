@@ -10,7 +10,7 @@ data modify storage minecraft:timermain multi-record-subtick set value []
 function multiplay:system/game/gamestart-log-main
 
 #출부 및 모드
-execute at @a[tag=kart-multi-player] run scoreboard players set @n[tag=kartdirection,type=minecraft:marker] startboosttime 25
+execute at @a[tag=kart-multi-player] run scoreboard players set @n[tag=kartdirection,type=item_display] startboosttime 25
 execute if score inf-boost multi-main matches 1 run scoreboard players set @e[tag=kartmobil] kartboostgaugecharge 9999
 execute if score no-collision multi-main matches 1 run tag @e[tag=kartmobil] add no-collision
 execute if score no-draft multi-main matches 1 run tag @e[tag=kartmobil] add no-draft

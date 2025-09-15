@@ -43,7 +43,7 @@ data modify storage track-list themes append value {key:"mariokart",text:{"text"
 data modify storage track-list themes append value {key:"thirdparty",text:{"text":"서드파티","color":"gold"},icon:"minecraft:command_block"}
 
 
-##최신 트랙 - 105 문힐 폭우
+##최신 트랙 - 107 리버스 폭우
 #포레스트
 data modify storage track-list tracks.forest append value {bgm:"forest",text:[{"text":"포레스트\n","color":"green"},{"text":"통나무","color":"aqua"}],number:3,lap:3,pos:"-689 46 875 0 0",creator:{"text":"By GhangDhang","color":"gold"}}
 data modify storage track-list tracks.forest append value {bgm:"forest",text:[{"text":"포레스트\n","color":"green"},{"text":"기암괴석","color":"aqua"}],number:17,lap:3,pos:"-893 19 271 0 0",creator:{"text":"By Kation","color":"gold"}}
@@ -83,6 +83,7 @@ data modify storage track-list tracks.planet append value {bgm:"planet",text:[{"
 data modify storage track-list tracks.planet append value {bgm:"planet",text:[{"text":"노르테유\n","color":"light_purple"},{"text":"전투비행장","color":"aqua"}],number:67,lap:2,pos:"1999 134 -5999.0 -90 0",etc:["time set 18000"],creator:{"text":"By ECYCEeeee","color":"gold"}}
 data modify storage track-list tracks.planet append value {bgm:"planet2",text:[{"text":"노르테유\n","color":"light_purple"},{"text":"허공의 갈림길","color":"aqua"}],number:25,lap:3,pos:"1430 138 228 -90 0",creator:{"text":"By fourgod","color":"gold"}}
 data modify storage track-list tracks.planet append value {bgm:"planet2",text:[{"text":"노르테유\n","color":"light_purple"},{"text":"붕붕 점프","color":"aqua"}],number:27,lap:3,pos:"753 159 -413 -90 0",etc:["time set 18000"],creator:{"text":"By Kation","color":"gold"}}
+data modify storage track-list tracks.planet append value {bgm:"planet2",text:[{"text":"[R] 노르테유[오리지널]\n","color":"light_purple","italic":true},{"text":"익스프레스","color":"aqua","italic":true}],number:106,lap:1,pos:"3001 20 9999 -150 0",creator:{"text":"By BKGpolar","color":"gold"}}
 
 #월드
 data modify storage track-list tracks.world append value {bgm:"rio",text:[{"text":"월드\n","color":"blue"},{"text":"리오 다운힐","color":"aqua"}],number:7,lap:1,pos:"-834 129 1583 -90 0",creator:{"text":"By GhangDhang","color":"gold"}}
@@ -129,6 +130,8 @@ data modify storage track-list tracks.pirate append value {bgm:"pirate",text:[{"
 #문힐시티
 data modify storage track-list tracks.moonhill append value {bgm:"moonhill",text:[{"text":"문힐시티\n","color":"dark_blue"},{"text":"숨겨진 지하터널","color":"aqua"}],number:74,lap:2,pos:"4000 100 -6997 0 0",etc:["time set 13500"],creator:{"text":"By EYRT","color":"gold"}}
 data modify storage track-list tracks.moonhill append value {bgm:"moonhill",text:[{"text":"문힐시티\n","color":"dark_blue"},{"text":"폭우속의 질주","color":"aqua"}],number:105,lap:2,pos:"1001 99 10000 90 0",etc:["time set midnight","weather rain"],creator:{"text":"By EYRT","color":"gold"}}
+data modify storage track-list tracks.moonhill append value {bgm:"moonhill",text:[{"text":"[R] 문힐시티\n","color":"dark_blue","italic":true},{"text":"폭우속의 질주","color":"aqua","italic":true}],number:107,lap:2,pos:"-4997 99 -10000 -90 0",etc:["time set midnight","weather rain"],creator:{"text":"By BKGpolar","color":"gold"}}
+
 
 #황금문명
 data modify storage track-list tracks.gold append value {bgm:"gold",text:[{"text":"황금문명\n","color":"gold"},{"text":"오르에트 황금 좌표","color":"aqua"}],number:69,lap:2,pos:"-3853 31 -3621 90 0",etc:["effect give @a minecraft:night_vision infinite 1 true","time set 12800"],creator:{"text":"By N_Devil","color":"gold"}}
