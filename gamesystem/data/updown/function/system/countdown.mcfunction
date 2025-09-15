@@ -28,6 +28,6 @@ execute if score @s updown-count matches 100 as @a at @s run playsound minecraft
 
 execute if score @s updown-count matches 100 run tellraw @s {"text":"점프 키를 누르면 카트가 점프합니다."}
 execute if score @s updown-count matches 100 run function timerpack:start
-execute if score @s updown-count matches 100 run scoreboard players set @n[tag=kartdirection,type=minecraft:marker] startboosttime 25
+execute if score @s updown-count matches 100 run scoreboard players set @n[tag=kartdirection,type=item_display] startboosttime 25
 execute if score @s updown-count matches 100 run tag @n[tag=kartmobil] add can-jump
 #@e[tag=kartmobil,type=item_display]

@@ -140,11 +140,13 @@ data modify storage bgm-room bgms.sword append value {bgm:"fengshen",text:[{"tex
 
 
 #마리오카트
-data modify storage bgm-room bgms.mariokart append value {bgm:"mkddrainbow",text:[{"text":"마리오카트\n","color":"red"},{"text":"무지개 로드 GC","color":"aqua"}],composer:{"text":"By KITE2459","color":"aqua"}}
-data modify storage bgm-room bgms.mariokart append value {bgm:"mk8rainbow64",text:[{"text":"마리오카트\n","color":"red"},{"text":"무지개 로드 64","color":"aqua"}],composer:{"text":"By KITE2459","color":"aqua"}}
-data modify storage bgm-room bgms.mariokart append value {bgm:"mkdswaluigi",text:[{"text":"마리오카트\n","color":"red"},{"text":"와루이지 핀볼","color":"aqua"}],composer:{"text":"By KITE2459","color":"aqua"}}
+data modify storage bgm-room bgms.mariokart append value {bgm:"mkddrainbow",text:[{"text":"마리오카트\n","color":"red"},{"text":"무지개 로드 GC","color":"aqua"}],composer:{"text":"By © khinsider","color":"aqua"},composer2:{"text":"Producer KITE2459","color":"green"}}
+data modify storage bgm-room bgms.mariokart append value {bgm:"mk8rainbow64",text:[{"text":"마리오카트\n","color":"red"},{"text":"무지개 로드 64","color":"aqua"}],composer:{"text":"By © Yoshimaster","color":"aqua"},composer2:{"text":"Producer KITE2459","color":"green"}}
+data modify storage bgm-room bgms.mariokart append value {bgm:"mkdswaluigi",text:[{"text":"마리오카트\n","color":"red"},{"text":"와루이지 핀볼","color":"aqua"}],composer:{"text":"By © Andrew Shand","color":"aqua"},composer2:{"text":"Producer KITE2459","color":"green"}}
 data modify storage bgm-room bgms.mariokart append value {bgm:"mkdsdelfino",text:[{"text":"마리오카트\n","color":"red"},{"text":"몬테 타운","color":"aqua"}],composer:{"text":"By LogGamja","color":"aqua"}}
 data modify storage bgm-room bgms.mariokart append value {bgm:"mkscsnowland",text:[{"text":"마리오카트\n","color":"red"},{"text":"스노우랜드","color":"aqua"}],composer:{"text":"By LogGamja","color":"aqua"}}
+data modify storage bgm-room bgms.mariokart append value {bgm:"mkdsyoshifalls",text:[{"text":"마리오카트\n","color":"red"},{"text":"요시알 폭포","color":"aqua"}],composer:{"text":"By © boomcar127","color":"aqua"},composer2:{"text":"Producer KITE2459","color":"green"}}
+data modify storage bgm-room bgms.mariokart append value {bgm:"mkdsairshipfortress",text:[{"text":"마리오카트\n","color":"red"},{"text":"킬러 해적선","color":"aqua"}],composer:{"text":"By © Luke Hackett","color":"aqua"},composer2:{"text":"Producer KITE2459","color":"green"}}
 
 
 #서드파티
@@ -161,7 +163,7 @@ data modify storage bgm-room bgms.etc append value {bgm:"introbgm",text:[{"text"
 data modify storage bgm-room bgms.etc append value {bgm:"end",text:[{"text":"엔딩\n","color":"yellow"},{"text":"낙타 경주","color":"aqua"}],composer:{"text":"By LogGamja","color":"aqua"}}
 data modify storage bgm-room bgms.etc append value {bgm:"creditmusic",text:[{"text":"엔딩 크레딧\n","color":"yellow"},{"text":"깃발이 어딨지?","color":"aqua"}],composer:{"text":"By LogGamja","color":"aqua"}}
 data modify storage bgm-room bgms.etc append value {bgm:"license",text:[{"text":"라이센스\n","color":"yellow"},{"text":"라이센스","color":"aqua"}],composer:{"text":"By LogGamja","color":"aqua"}}
-data modify storage bgm-room bgms.etc append value {bgm:"kartstore",text:[{"text":"차고\n","color":"yellow"},{"text":"상점","color":"aqua"}],composer:{"text":"By KITE2459","color":"aqua"}}
+data modify storage bgm-room bgms.etc append value {bgm:"kartstore",text:[{"text":"차고\n","color":"yellow"},{"text":"상점","color":"aqua"}],composer:{"text":"By © 이석희1","color":"aqua"},composer2:{"text":"Producer KITE2459","color":"green"}}
 data modify storage bgm-room bgms.etc append value {bgm:"driftgarage",text:[{"text":"스페셜 차고\n","color":"yellow"},{"text":"차량 정비","color":"aqua"}],composer:{"text":"By LogGamja","color":"aqua"}}
 data modify storage bgm-room bgms.etc append value {bgm:"multiplayroom",text:[{"text":"메뉴\n","color":"yellow"},{"text":"멀티플레이어","color":"aqua"}],composer:{"text":"By WyvernP","color":"aqua"},composer2:{"text":"Producer KITE2459","color":"green"}}
 data modify storage bgm-room bgms.etc append value {bgm:"singleplayroom",text:[{"text":"메뉴\n","color":"yellow"},{"text":"싱글플레이어","color":"aqua"}],composer:{"text":"By WyvernP","color":"aqua"},composer2:{"text":"Producer KITE2459","color":"green"}}

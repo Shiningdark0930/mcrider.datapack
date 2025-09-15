@@ -22,7 +22,7 @@ execute as @a[scores={licensecount=1..}] at @s run function gamemain:noleftplaye
 execute as @a[scores={updown-count=1..}] at @s run function gamemain:noleftplayer/leftplayerdetect
 
 #출부
-execute as @e[tag=kartdirection,scores={startboosttime=1..},type=minecraft:marker] at @s run function gamemain:startboost/startboosteffect
+execute as @e[tag=kartdirection,scores={startboosttime=1..},type=minecraft:item_display] at @s run function gamemain:startboost/startboosteffect
 
 #만약 게임이 진행중이지 않은데 타이머가 켜져있다면 끄기
 execute unless score #is-game-play game-id matches 1 if score iswork timermain matches 1 run function timerpack:stop

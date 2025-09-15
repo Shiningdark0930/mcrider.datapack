@@ -1,0 +1,11 @@
+{
+  "speed": 428,
+  "accel": 601,
+  "boost": 189,
+  "corner": 210,
+  "drift": 480,
+  "gauge": 14,
+  "boosttime": 59,
+  "maxboostcount": 2,
+  "engine": 0
+}

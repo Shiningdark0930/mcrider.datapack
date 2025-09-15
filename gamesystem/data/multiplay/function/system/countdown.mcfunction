@@ -15,7 +15,11 @@ execute if score #time multi-main matches 20 as @a[tag=multi-spectator] at @s ru
 execute if score #time multi-main matches 20.. as @a[tag=kart-multi-player] at @s run function multiplay:system/countdown-lockplayerhead
 
 execute if score #time multi-main matches 16 run kill @e[tag=engine-display,type=text_display]
+execute if score #time multi-main matches 16 run kill @e[tag=bumpallow-display,type=text_display]
 execute if score #time multi-main matches 17 as @a[tag=kart-multi-player] at @s run function multiplay:system/enginedisplay
+execute if score #time multi-main matches 17 as @a[tag=kart-multi-player,tag=kite-played] at @s run function multiplay:system/bumpallow-display
+
+execute if score #time multi-main matches 17 run function multiplay:system/countdown-notify
 
 execute if score #time multi-main matches 15 run title @a title {"text":"","color":"yellow"}
 execute if score #time multi-main matches 15 run title @a subtitle {"text":"준비","color":"yellow"}
@@ -27,6 +31,7 @@ execute if score #time multi-main matches 80 run title @a title {"text":"1","col
 execute if score #time multi-main matches 100 run title @a title {"text":"시작","color":"yellow"}
 
 execute if score #time multi-main matches 100 run kill @e[tag=engine-display,type=text_display]
+execute if score #time multi-main matches 100 run kill @e[tag=bumpallow-display,type=text_display]
 
 execute if score #time multi-main matches 40 as @a at @s run playsound minecraft:block.note_block.pling weather @s ~ ~ ~ 1 0.675
 execute if score #time multi-main matches 60 as @a at @s run playsound minecraft:block.note_block.pling weather @s ~ ~ ~ 1 0.675
